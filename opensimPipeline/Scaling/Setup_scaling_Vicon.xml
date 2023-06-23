@@ -33,19 +33,11 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r_calc_study r_toe_study</markers>
+									<markers> RHEE RTOE</markers>
 								</MarkerPair>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r_calc_study r_5meta_study</markers>
-								</MarkerPair>
-								<MarkerPair>
-									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> L_calc_study L_toe_study</markers>
-								</MarkerPair>
-								<MarkerPair>
-									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> L_calc_study L_5meta_study</markers>
+									<markers> LHEE LTOE</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -89,11 +81,11 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r_knee_study r_ankle_study</markers>
+									<markers> RKNE RANK</markers>
 								</MarkerPair>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r_mknee_study r_mankle_study</markers>
+									<markers> RMKN RMED</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -117,7 +109,7 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> RHJC_study r_knee_study</markers>
+									<markers> RHJC RKNE</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -145,11 +137,11 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> L_knee_study L_ankle_study</markers>
+									<markers> LKNE LANK</markers>
 								</MarkerPair>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> L_mknee_study L_mankle_study</markers>
+									<markers> LMKN LMED</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -173,7 +165,7 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> LHJC_study L_knee_study</markers>
+									<markers> LHJC LKNE</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -201,11 +193,11 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r.ASIS_study r.PSIS_study</markers>
+									<markers> RASI RPSI</markers>
 								</MarkerPair>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> L.ASIS_study L.PSIS_study</markers>
+									<markers> LASI LPSI</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -229,7 +221,7 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> RHJC_study LHJC_study</markers>
+									<markers> RHJC LHJC</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -253,19 +245,19 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r_shoulder_study r.PSIS_study</markers>
+									<markers> RSHO RPSI</markers>
 								</MarkerPair>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> L_shoulder_study L.PSIS_study</markers>
+									<markers> LSHO LPSI</markers>
 								</MarkerPair>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> C7_study r.PSIS_study</markers>
+									<markers> C7 RPSI</markers>
 								</MarkerPair>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> C7_study L.PSIS_study</markers>
+									<markers> C7 LPSI</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -297,7 +289,7 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r_shoulder_study L_shoulder_study</markers>
+									<markers> RSHO LSHO</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -329,19 +321,11 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r_shoulder_study r_lelbow_study</markers>
+									<markers> RSHO RELB</markers>
 								</MarkerPair>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r_shoulder_study r_melbow_study</markers>
-								</MarkerPair>
-								<MarkerPair>
-									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> L_shoulder_study L_lelbow_study</markers>
-								</MarkerPair>
-								<MarkerPair>
-									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> L_shoulder_study L_melbow_study</markers>
+									<markers> LSHO LELB</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -369,19 +353,11 @@
 							<objects>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r_lwrist_study r_lelbow_study</markers>
+									<markers> RWRA RELB</markers>
 								</MarkerPair>
 								<MarkerPair>
 									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> r_mwrist_study r_melbow_study</markers>
-								</MarkerPair>
-								<MarkerPair>
-									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> L_lwrist_study L_lelbow_study</markers>
-								</MarkerPair>
-								<MarkerPair>
-									<!--Names of two markers, the distance between which is used to compute a body scale factor.-->
-									<markers> L_mwrist_study L_melbow_study</markers>
+									<markers> LWRA LELB</markers>
 								</MarkerPair>
 							</objects>
 							<groups />
@@ -443,175 +419,163 @@
 			<!--Task set used to specify weights used in the IK computation of the static pose.-->
 			<IKTaskSet>
 				<objects>
-					<IKMarkerTask name="r.ASIS_study">
+					<IKMarkerTask name="RASI">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L.ASIS_study">
+					<IKMarkerTask name="LASI">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r.PSIS_study">
+					<IKMarkerTask name="RPSI">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L.PSIS_study">
+					<IKMarkerTask name="LPSI">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="RHJC_study">
+					<IKMarkerTask name="RHJC">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="LHJC_study">
+					<IKMarkerTask name="LHJC">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r_knee_study">
+					<IKMarkerTask name="RKNE">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r_mknee_study">
+					<IKMarkerTask name="RMKN">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r_ankle_study">
+					<IKMarkerTask name="RANK">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r_mankle_study">
+					<IKMarkerTask name="RMED">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r_toe_study">
+					<IKMarkerTask name="RTOE">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r_5meta_study">
+					<IKMarkerTask name="RHEE">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r_calc_study">
+					<IKMarkerTask name="LKNE">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L_knee_study">
+					<IKMarkerTask name="LMKN">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L_mknee_study">
+					<IKMarkerTask name="LANK">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L_ankle_study">
+					<IKMarkerTask name="LMED">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L_mankle_study">
+					<IKMarkerTask name="LTOE">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L_toe_study">
+					<IKMarkerTask name="LHEE">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>10</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L_calc_study">
-						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
-						<apply>true</apply>
-						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
-						<weight>10</weight>
-					</IKMarkerTask>
-					<IKMarkerTask name="L_5meta_study">
-						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
-						<apply>true</apply>
-						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
-						<weight>10</weight>
-					</IKMarkerTask>
-					<IKMarkerTask name="r_shoulder_study">
+					<IKMarkerTask name="RSHO">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>5</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L_shoulder_study">
+					<IKMarkerTask name="LSHO">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>5</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="C7_study">
+					<IKMarkerTask name="C7">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>20</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r_lelbow_study">
+					<IKMarkerTask name="RELB">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>1</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r_lwrist_study">
+					<IKMarkerTask name="RWRA">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>5</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="r_mwrist_study">
+					<IKMarkerTask name="RWRB">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>5</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L_lelbow_study">
+					<IKMarkerTask name="LELB">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>1</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L_lwrist_study">
+					<IKMarkerTask name="LWRA">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
 						<weight>5</weight>
 					</IKMarkerTask>
-					<IKMarkerTask name="L_mwrist_study">
+					<IKMarkerTask name="LWRB">
 						<!--Whether or not this task will be used during inverse kinematics solve, default is true.-->
 						<apply>true</apply>
 						<!--Weight given to the task when solving inverse kinematics problems, default is 0.-->
