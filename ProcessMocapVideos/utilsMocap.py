@@ -164,7 +164,7 @@ def xcpToCameraParameters(xcpPath,cameraIDs='Vue',saveBasePath=None,visualizeCam
             cameraParameters['rotation_EulerAngles'] = np.array(cv2.Rodrigues(cameraParameters['rotation'])[0])
             
             # translation. Vicon defines this as translation from origin to camera in world,
-            # our camera model wants it expressed in camera to origin in camera
+            # our camera model wants it expressed as camera to origin in camera
             translation = stringToList(thisCam['KeyFrames']['KeyFrame']['@POSITION'])
             translation = np.expand_dims(np.array(translation),axis=1)
             cameraParameters['translation'] = -np.matmul(R_camera_to_world,translation)
