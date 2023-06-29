@@ -9,7 +9,7 @@
 				<location>0.028000000000000001 0.01 0.128</location>
 				<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
 				<fixed>false</fixed>
-			</Marker>			
+			</Marker>
 			<Marker name="LASI">
 				<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
 				<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
@@ -265,6 +265,22 @@
 				<socket_parent_frame>/ground</socket_parent_frame>
 				<!--The fixed location of the station expressed in its parent frame.-->
 				<location>-0.12867500000000001 0.95544099999999998 -0.209285</location>
+			</Marker>
+			<Marker name="RHJC">
+				<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+				<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
+				<!--The fixed location of the station expressed in its parent frame.-->
+				<location>-0.056276 -0.078490000000000004 0.077259999999999995</location>
+				<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+				<fixed>false</fixed>
+			</Marker>
+			<Marker name="LHJC">
+				<!--Path to a Component that satisfies the Socket 'parent_frame' of type PhysicalFrame (description: The frame to which this station is fixed.).-->
+				<socket_parent_frame>/bodyset/pelvis</socket_parent_frame>
+				<!--The fixed location of the station expressed in its parent frame.-->
+				<location>-0.056276 -0.078490000000000004 -0.077259999999999995</location>
+				<!--Flag (true or false) specifying whether the marker is fixed in its parent frame during the marker placement step of scaling.  If false, the marker is free to move within its parent Frame to match its experimental counterpart.-->
+				<fixed>false</fixed>
 			</Marker>
 		</objects>
 		<groups />
